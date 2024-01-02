@@ -1,0 +1,13 @@
+.bg_video{
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1920px;
+    height: 1080px;
+    z-index: -100;
+    
+}

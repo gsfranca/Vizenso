@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&display=swap");
+
+@import url("http://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap");
+
+#fonteGentium {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+#fontePompiere {
+  font-family: "Pompiere", cursive;
+}
+
+#menuOptions ul {
+  list-style-type: none;
+  font-size: 20%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#menuOptions ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#menuOptions ul a {
+  vertical-align: middle;
+  padding: 0%;
+  width: 80%;
+  height: auto;
+}
+
+#menuOptions ul ion-icon {
+  width: 40%;
+  height: 80%;
+}
+
+#spanMenu {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#offcanvasScrolling {
+  width: 25%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#textoReserva1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#textoReserva2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#imagemSiteReserva {
+  width: 90%;
+  margin: 10px;
+}
+
+#divReservar {
+  background-color: #357547;
+  color: white;
+  border: dashed;
+  border-width: 6px;
+  margin: 50px;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 50%;
+  width: 175px;
+  height: 50px;
+}
+
+.button:hover {
+  color: #fff !important;
+}
+
+#offcanvasScrolling {
+  width: 25%;
+}
+
+#OpcoesMenu {
+  margin-bottom: 0px;
+}
+
+#Coluna1 {
+  width: 100%;
+}
+
+#Coluna2 {
+  width: 100.5%;
+}
+
+/* botão animação teste */
+.fourth {
+  border-color: #5e1c79;
+  background-color: rgb(170, 113, 197);
+  color: #fff;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #d6abf3 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #ac4bec 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  width: 140px;
+  font-weight: bold;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+#Desenvolvedores {
+  text-decoration: none;
+}
+
+#containerPrincipal {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+#ReservaColunaEsquerda {
+  padding: 0;
+}
+
+#botaoEntrar {
+  color: rgb(46, 45, 45);
+  height: 40px;
+  width: 80%;
+  font-weight: bold;
+}
+
+#botaoCadastrar {
+  color: rgb(46, 45, 45);
+  height: 40px;
+  width: 80%;
+  font-weight: bold;
+}
+
+#divReservar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#divReservar span {
+  text-align: center;
+}
+
+.linhaReserva {
+  display: flex;
+  flex-direction: row;
+}
+
+.colunaReserva {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colunaReserva.Direita {
+  align-items: right;
+  justify-content: right;
+}
+
+.colunaReserva span {
+  text-align: center;
+  font-size: clamp(0.5em, 1em + 1vw, 2em);
+}
+
+.textoBranco{
+  color: white;
+}
+
+@media screen and (max-width: 789px) {
+  #offcanvas-header {
+    padding: 15%;
+  }
+  #faixaSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logoSidebar {
+    width: 80%;
+    height: auto;
+  }
+  #spanMenu {
+    font-size: 18px;
+  }
+  #closeSidebar {
+    display: none;
+  }
+  #offcanvasScrolling {
+    width: 25%;
+  }
+  #menuOptions ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #menuOptions ul a {
+    padding: 0%;
+    margin-bottom: 30%;
+    width: 80%;
+    height: auto;
+  }
+  #menuOptions ul span {
+    display: none;
+  }
+  #menuOptions ul ion-icon {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  #containerPrincipal {
+    flex-direction: row;
+  }
+
+  #ReservaColunaEsquerda {
+    width: 65%;
+    padding: 0;
+  }
+
+  .entrar {
+    width: 35%;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #ReservaColunaEsquerda {
+    width: 100%;
+    padding: 0;
+  }
+
+  .entrar {
+    width: 100%;
+    display: flex;
+  }
+
+  .linhaReserva{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .colunaReserva {
+    margin: 20px;
+    width: 100%;
+  }
+}

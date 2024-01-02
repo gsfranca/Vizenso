@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&display=swap%22");
+
+@import url("http://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap%22");
+
+#fonteGentium {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+#fontePompiere {
+  font-family: "Pompiere", cursive;
+}
+
+.fotoCliente {
+  border-radius: 50%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#BemVindo {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#Container2 {
+  background-color: #ffffff;
+}
+
+#Container3 {
+  background-color: #ffffff;
+}
+
+/*#Navbar {
+  filter: blur(8px);
+}
+*/
+
+#menuOptions ul {
+  list-style-type: none;
+  font-size: 20%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#menuOptions ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#menuOptions ul a {
+  vertical-align: middle;
+  padding: 0%;
+  width: 80%;
+  height: auto;
+}
+
+#menuOptions ul ion-icon {
+  width: 40%;
+  height: 80%;
+}
+
+#spanMenu {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#offcanvasScrolling {
+  width: 25%;
+}
+
+#minhaConta {
+  font-size: 30px;
+  padding-right: 0.5%;
+}
+
+#Desenvolvedores {
+  text-decoration: none;
+}
+
+.containervideo {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img.imagemCard {
+  width: 50%;
+  height: auto;
+}
+
+#ContainerCardapio {
+  margin-bottom: 50px;
+}
+
+#ContainerReserva {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 789px) {
+  #offcanvas-header {
+    padding: 15%;
+  }
+  #faixaSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logoSidebar {
+    width: 80%;
+    height: auto;
+  }
+  #spanMenu {
+    font-size: 18px;
+  }
+  #closeSidebar {
+    display: none;
+  }
+  #offcanvasScrolling {
+    width: 25%;
+  }
+  #menuOptions ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #menuOptions ul a {
+    padding: 0%;
+    margin-bottom: 30%;
+    width: 80%;
+    height: auto;
+  }
+  #menuOptions ul span {
+    display: none;
+  }
+  #menuOptions ul ion-icon {
+    width: 100%;
+    height: 100%;
+  }
+}

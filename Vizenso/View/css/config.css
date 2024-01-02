@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap");
+
+h1 {
+  font-family: "Pompiere", cursive;
+}
+
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-title {
+  font-size: 35px;
+}
+
+.card-text {
+  font-size: 25px;
+}
+
+.button {
+  border-radius: 50%;
+  width: 175px;
+  height: 50px;
+}
+
+#BemVindo {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 93.5%;
+  width: 100%;
+}
+
+#titulo {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.fotoCliente {
+  border-radius: 50%;
+}
+
+#textoReserva1 {
+  text-align: right;
+}
+
+#textoReserva2 {
+  text-align: left;
+}
+
+#imagemSiteReserva1 {
+  width: 108%;
+}
+
+#imagemSiteReserva2 {
+  width: 108%;
+  padding-right: 3%;
+}
+
+#formularioReservar {
+  background-color: #357547;
+  color: white;
+  border: dashed;
+  border-width: 6px;
+  margin: 50px;
+  height: 95%;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+  h1 {
+    font-family: "Pompiere", cursive;
+  }
+
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 25px;
+  }
+
+  .button {
+    border-radius: 50%;
+    width: 175px;
+    height: 50px;
+  }
+
+  #BemVindo {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 93%;
+    width: 100%;
+  }
+
+  #titulo {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .fotoCliente {
+    border-radius: 50%;
+  }
+
+  #textoReserva1 {
+    text-align: right;
+  }
+
+  #textoReserva2 {
+    text-align: left;
+  }
+
+  #imagemSiteReserva1 {
+    width: 108%;
+  }
+
+  #imagemSiteReserva2 {
+    width: 108%;
+    padding-right: 3%;
+  }
+
+  #formularioReservar {
+    background-color: #357547;
+    color: white;
+    border: dashed;
+    border-width: 6px;
+    margin: 50px;
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 1920px) and (max-height: 903px) {
+  h1 {
+    font-family: "Pompiere", cursive;
+  }
+
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 25px;
+  }
+
+  .button {
+    border-radius: 50%;
+    width: 175px;
+    height: 50px;
+  }
+
+  #BemVindo {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 139.5%;
+    width: 100%;
+  }
+
+  #titulo {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .fotoCliente {
+    border-radius: 50%;
+  }
+
+  #textoReserva1 {
+    text-align: right;
+  }
+
+  #textoReserva2 {
+    text-align: left;
+  }
+
+  #imagemSiteReserva1 {
+    width: 108%;
+  }
+
+  #imagemSiteReserva2 {
+    width: 108%;
+    padding-right: 3%;
+  }
+
+  #formularioReservar {
+    background-color: #357547;
+    color: white;
+    border: dashed;
+    border-width: 6px;
+    margin: 50px;
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 1183px) {
+  h1 {
+    font-family: "Pompiere", cursive;
+  }
+
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 25px;
+  }
+
+  .button {
+    border-radius: 50%;
+    width: 175px;
+    height: 50px;
+  }
+
+  #BemVindo {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 93%;
+    width: 100%;
+  }
+
+  #titulo {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .fotoCliente {
+    border-radius: 50%;
+  }
+
+  #textoReserva1 {
+    text-align: right;
+  }
+
+  #textoReserva2 {
+    text-align: left;
+  }
+
+  #imagemSiteReserva1 {
+    width: 108%;
+  }
+
+  #imagemSiteReserva2 {
+    width: 108%;
+    padding-right: 3%;
+  }
+
+  #formularioReservar {
+    background-color: #357547;
+    color: white;
+    border: dashed;
+    border-width: 6px;
+    margin: 50px;
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-family: "Pompiere", cursive;
+  }
+
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 25px;
+  }
+
+  .button {
+    border-radius: 50%;
+    width: 175px;
+    height: 50px;
+  }
+
+  #BemVindo {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 93%;
+    width: 100%;
+  }
+
+  #titulo {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .fotoCliente {
+    border-radius: 50%;
+  }
+
+  #conteudoReserva {
+    text-align: left;
+    padding-left: 5%;
+    width: 100%;
+  }
+
+  #textoReserva1 {
+    text-align: left;
+  }
+
+  #textoReserva2 {
+    text-align: left;
+  }
+
+  #imagemSiteReserva {
+    width: 80%;
+  }
+
+  #imagemSiteReserva1 {
+    width: 80%;
+    padding-right: 3%;
+  }
+
+  #imagemSiteReserva2 {
+    width: 80%;
+  }
+
+  #formularioReservar {
+    background-color: #357547;
+    color: white;
+    border: dashed;
+    border-width: 6px;
+    margin: 50px;
+    height: 95%;
+  }
+}
